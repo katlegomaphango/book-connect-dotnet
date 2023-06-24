@@ -18,6 +18,21 @@ namespace book_connect.Controllers
             return View();
         }
 
+        public IActionResult settings()
+        {
+            return View();
+        }
+
+        public IActionResult search()
+        {
+            return View();
+        }
+
+        public IActionResult Summary()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
