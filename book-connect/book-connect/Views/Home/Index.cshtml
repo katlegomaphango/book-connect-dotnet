@@ -1,8 +1,15 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<main class="list">
+    <div class="list__items" data-list-items>
+        <div>
+            <img class="preview__image" src="" alt="book image" />
+            <div class="preview__info">
+                <div class="preview__title">title</div>
+                <div class="preview__author">author</div>
+            </div>
+        </div>
+    </div>
+    <div class="list__message" data-list-message>No results found. Your filters might be too narrow.</div>
+    <button class="list__button" data-list-button></button>
+</main>
