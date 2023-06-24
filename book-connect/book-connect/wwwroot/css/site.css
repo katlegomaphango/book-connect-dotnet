@@ -115,10 +115,11 @@ option {
     margin-right: 0.25rem;
 }
 
-    .header__button:hover {
-        background-color: rgba(var(--color-force-light), 0.2);
-    }
+.header__button:hover {
+    background-color: rgba(var(--color-force-light), 0.2);
+}
 
-    .header__button:active {
-        background-color: rgba(var(--color-force-light), 0.3);
-    }
+.header__button:active {
+    background-color: rgba(var(--color-force-light), 0.3);
+}
+
